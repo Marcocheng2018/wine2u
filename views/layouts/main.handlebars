@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
+        crossorigin="anonymous "></script>
+
+    <!-- css stuffs-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <title>Wine2U</title>
+
+
+    {{!-- Import CSS from ViewRouter.js --}} {{#each css}}
+    <link rel="stylesheet" href="../../css/{{this}}" /> {{/each}}
+</head>
+
+<body id="home" class="scrollspy">
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav class="black">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="/" class="brand-logo">
+                        <img src="/img/home-images/others/logo.jpg">
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="/login">Sign In</a>
+                        </li>
+                        <li>
+                            <a href="/subscription">Start The Journey</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Sidenav-->
+    <ul class="sidenav" id="mobile-nav">
+        <li>
+            <a href="/subscription">Subscribe</a>
+        </li>
+        <li>
+            <a href="/login">Login/Registration</a>
+        </li>
+        <li>
+            <a href="#contact">Contact Us</a>
+        </li>
+        <li>
+            <a href="#about-us">About Us</a>
+        </li>
+    </ul>
+
+    <!--Floating Action Button-->
+    <div class="fixed-action-btn">
+        <a href="#home" class="btn-floating btn-large red">
+            <i class="large material-icons">arrow_upward</i>
+        </a>
+    </div>
+
+    {{{body}}}
+
+    <!-- Footer -->
+    <footer class="page-footer black " id="contact">
+        <div class="center-align">
+            <div class="row ">
+                <div class="divider"></div>
+                <br>
+                <div class="container">
+                    <div class="col l6 s6 left-align">
+                        <h6 class="white-text ">Contact Us! </h6>
+                        <p class="grey-text text-lighten-4 ">Tel: 2663 9993</p>
+                        <p class="grey-text text-lighten-4 ">Email:
+                            <a href="mailto:enquiry@winetoyou.com ">enquiry@winetoyou.com</br>
+                        </p>
+                        <p class="grey-text text-lighten-4 ">Address: Hong Kong</p>
+                    </div>
+                    <div class="col l4 offset-l1 s6">
+                        <h6 class="white-text ">Social Media Connections</h6>
+                        <br>
+                        <div class="col s4 m4 l3 offset-l2 center-align">
+                            <a href=" https://www.facebook.com" target="_blank ">
+                                <i class="fab fa-facebook "></i>
+                            </a>
+                        </div>
+                        <div class="col s4 m4 l3 center-align">
+                            <a href="https://www.instagram.com" target="_blank ">
+                                <i class="fab fa-instagram "></i>
+                            </a>
+                        </div>
+                        <div class="col s4 m4 l3 center-align">
+                            <a href="https://www.linkedin.com" target="_blank ">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--copyright-->
+        <div class="footer-copyright center-align">
+            <div class="container ">
+                © 2018 Copyright reserved by Wine To You Global Ltd
+            </div>
+        </div>
+    </footer>
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 "
+        crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js "></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js "></script>
+
+
+    <script>
+        // Sidenav
+        const sideNav = document.querySelector(".sidenav ");
+        M.Sidenav.init(sideNav, {});
+
+        // Slider
+        const slider = document.querySelector(".slider ");
+        M.Slider.init(slider, {
+            indicators: false,
+            height: 700,
+            transition: 500,
+            interval: 6000
+        });
+
+        // Form Select
+        $(document).ready(function () {
+            $('select').formSelect();
+        });
+
+        // Material Boxed
+        const mb = document.querySelectorAll(".materialboxed ");
+        M.Materialbox.init(mb, {});
+
+        // ScrollSpy
+        const ss = document.querySelectorAll(".scrollspy ");
+        M.ScrollSpy.init(ss, {});
+
+       
+    </script>
+</body>
+
+</html>

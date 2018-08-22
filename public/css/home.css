@@ -1,0 +1,119 @@
+html{
+    background-color:#000000;
+    color: #ffffff;
+} 
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+    /* padding-top:50px; */
+  }
+
+  .slider .slides li img{
+    opacity: 0.35;
+}
+nav {
+    font-family: 'Philosopher', sans-serif;
+}
+
+h1 {
+    font-family: 'Philosopher', sans-serif;
+}
+
+h2 {
+    font-size: 4vh;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+h3 {
+    font-family: 'Philosopher', sans-serif;
+}
+
+h4 {
+    font-family: 'Philosopher', sans-serif;
+}
+
+.get {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#about-us p {
+    font-family: 'Cinzel', serif;
+}
+
+#features p {
+    font-family: 'Cinzel', serif;
+}
+
+#process .card-panel {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d32d2d;
+    border-radius: 30px;
+}
+
+#process p {
+    font-family: 'Cinzel', serif;
+}
+
+/* footer */ 
+footer  {
+    font-family: 'Cinzel', serif;
+}
+
+  /* social media icons*/ 
+
+.fa-facebook {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.fa-twitter {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.fa-instagram {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.images {
+    background-color: #ffffff;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+    max-width: 100%;
+}
+
+.section section-icons black lighten-4 center p {
+    font-size: 1vh;
+}
+
+h5 {
+    font-size: 4vh;
+    font-family: 'Philosopher', sans-serif;
+}
+
+h6 {
+    font-family: 'Philosopher', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .mobile {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    h4 {
+        text-align: center;
+    }
+}

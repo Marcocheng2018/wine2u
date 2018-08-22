@@ -1,0 +1,70 @@
+body {
+    background-color: #000000;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+nav {
+    font-family: 'Philosopher', sans-serif;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
+/* Choices */
+
+.card {
+    border: groove !important;
+    border-color: red !important;
+    font-family: 'Cinzel', serif;
+}
+
+.card-title {
+    font-size: 5vh !important;
+}
+
+.card-content li {
+    font-size: 19px;
+}
+
+
+/* footer */
+
+h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 3vh;
+}
+
+footer p {
+    font-family: 'Cinzel', serif;
+}
+
+footer a {
+    font-family: 'Cinzel', serif;
+}
+
+.checkout {
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+
+
+/*social media icons*/
+
+.fa-facebook {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.fa-twitter {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.fa-instagram {
+    font-size: 40px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,85 @@
+body {
+    background-color: #000000;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+nav {
+    font-family: 'Philosopher', sans-serif;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.card {
+    background-color: #000000;
+    border-style: groove;
+    border-color: white;
+}
+
+h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 3vh;
+}
+
+
+/* gallery */
+
+.slider {
+    background: transparent;
+    height: 1000px !important;
+}
+
+.slides {
+    height: 1000px !important;
+    background-color: #1a1a1a !important;
+}
+
+.words {
+    font-family: 'Cinzel', serif;
+    font-size: 19px;
+}
+
+.words p {
+    font-size: 17px;
+}
+
+.words span {
+    font-size: 17px;
+}
+
+
+/* footer */
+
+footer p {
+    font-family: 'Cinzel', serif;
+}
+
+footer a {
+    font-family: 'Cinzel', serif;
+}
+
+.checkout {
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+
+
+/*social media icons*/
+
+.fa-facebook {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.fa-twitter {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.fa-instagram {
+    font-size: 40px;
+    color: #FFFFFF;
+}

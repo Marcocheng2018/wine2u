@@ -1,0 +1,59 @@
+html{
+    background-color:#000000;
+    color: #ffffff;
+} 
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+    padding-top:50px;
+    font-family: 'Philosopher', sans-serif;
+  }
+
+nav {
+    font-family: 'Philosopher', sans-serif;
+}
+
+/* main */
+#tick .svg-inline--fa {
+    font-size: 400px !important;
+}
+
+#tick a{
+    font-family: 'Philosopher', sans-serif;
+}
+
+/* footer */ 
+footer {
+    font-family: 'Cinzel', serif;
+}
+
+footer a {
+    font-family: 'Cinzel', serif;
+}
+
+.footer-copyright center-align {
+    font-family: 'Cinzel', serif;
+  }
+
+  /* social media icons*/ 
+
+.fa-facebook {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.fa-twitter {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.fa-instagram {
+    font-size: 40px;
+    color: #FFFFFF;
+}

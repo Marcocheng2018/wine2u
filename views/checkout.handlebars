@@ -1,0 +1,105 @@
+<link rel="stylesheet" href="/css/checkout.css">
+
+<main>
+    <div class="row">
+        <div id="info" class="col l6 s12 left-align ">
+            <div class="col l12 s12">
+                <div class="card col l12 s12 black white-text">
+                    <div class="card-content">
+                        <div class="card-title activator text-darken-4 center-align">
+                            <h1>Subscription Plan</h1>
+                        </div>
+                        <!-- info show place -->
+                    </div>
+                </div>
+
+                <div class="card col l6 s12 left-align">
+                    <div class="card-image waves-effect waves-block waves-light center-align">
+                        <i class="material-icons ci">local_shipping</i>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title activator white-text text-darken-4 center-align">
+                            <h2>Free Shipping</h2>
+                        </div>
+                        <span>We pack your wine in special protective boxes and ship via standard ground service for free! </span>
+                    </div>
+                </div>
+
+                <div class="col l1 s1"></div>
+                <!--space-->
+
+                <div class="card col l5 s12 left-align">
+                    <div class="card-image waves-effect waves-block waves-light center-align">
+                        <i class="material-icons ci">people</i>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title activator white-text text-darken-4 center-align">
+                            <h3>24/7 Services</h3>
+                        </div>
+                        <span>Feel free to contact our wine expert around the world.</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="payment" class="col l6 s12 left-align">
+            <div class=" card col l12 s12">
+                <div class="card-content">
+                    <div class="card-title activator white-text text-darken-4 center-align">
+                        <h4>Delivery Address</h4>
+                    </div>
+                    <div class="row">
+                        <form class="col l12 s12">
+                            <div class="row">
+                                <div class="col l12 s12">
+                                    <form id="input-data">
+                                        <input placeholder="Please type it here" type="text" id="address">
+                                        <!-- <label for="address"></label> -->
+                                    </form>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class=" card col l12 s12">
+                <div class="card-content">
+                    <div class="card-title activator white-text text-darken-4 center-align">
+                        <h4>Contact Numbers</h4>
+                    </div>
+                    <div class="row">
+                        <form class="col l12 s12">
+                            <div class="row">
+                                <div class="col l12 s12">
+                                    <form id="input-data">
+                                        <input placeholder="Please type it here" type="text" id="contact-no.">
+                                        <!-- <label for="address"></label> -->
+                                    </form>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card col l12 s12 center-align">
+                <div class="card-content">
+                    <div class="card-title activator white-text text-darken-4">
+                        <h5>Payment</h5>
+                    </div>
+                    <br> {{!--
+                    <a class="btn btn-pay waves-effect waves-effect red darken-3">Checkout</a> --}}
+                    <button class="btn btn-default btn-adopt" type="button" data-id="0">Checkout</button>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="/js/checkout.js"></script>
+
+</main>

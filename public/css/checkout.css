@@ -1,0 +1,111 @@
+html {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+nav {
+    font-family: 'Philosopher', sans-serif;
+}
+
+main {
+    background-image: url(/img/checkout-images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    flex: 1 0 auto;
+}
+
+input[type=text],
+select {
+    color: #ffffff;
+}
+
+::placeholder {
+    color: grey;
+    ;
+    opacity: 1;
+}
+
+.card {
+    background: rgba(0, 0, 0, .8);
+    border-color: red;
+    border: groove;
+    font-family: 'Cinzel', serif;
+}
+
+.ci {
+    font-size: 100px;
+}
+
+h1 {
+    font-size: 3vh;
+}
+
+h2 {
+    font-size: 3vh;
+}
+
+h3 {
+    font-size: 3vh;
+}
+
+h4 {
+    font-size: 3vh;
+}
+
+h5 {
+    font-size: 3vh;
+}
+
+h6 {
+    font-size: 3vh;
+    font-family: 'Cinzel', serif;
+}
+
+
+/* footer */
+
+footer p {
+    font-family: 'Cinzel', serif;
+}
+
+footer a {
+    font-family: 'Cinzel', serif;
+}
+
+.footer-copyright center-align {
+    font-family: 'Cinzel', serif;
+}
+
+
+/* social media icons*/
+
+.fa-facebook {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.fa-twitter {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.fa-instagram {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+
+/* mobile */
+
+@media only screen and (max-width: 793px) {
+    .card-content .card-title span {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
